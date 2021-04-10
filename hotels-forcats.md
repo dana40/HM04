@@ -13,11 +13,13 @@ hotels <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesda
 ```
 
 First, knit the document and view the following visualisation. How are
-the months ordered? What would be a better order? Then, reorder the
-months on the x-axis (levels of `arrival_date_month`) in a way that
-makes more sense. You will want to use a function from the **forcats**
-package, see <https://forcats.tidyverse.org/reference/index.html> for
-inspiration and help.
+the months ordered? According to the order of the calendar months. What
+would be a better order? In my opinion, this system is suitable. Then,
+reorder the months on the x-axis (levels of `arrival_date_month`) in a
+way that makes more sense. You will want to use a function from the
+**forcats** package, see
+<https://forcats.tidyverse.org/reference/index.html> for inspiration and
+help.
 
 **Stretch goal:** If you finish the above task before time is up, change
 the y-axis label so the values are shown with dollar signs, e.g. $80
